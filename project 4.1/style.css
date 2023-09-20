@@ -1,0 +1,199 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main
+{
+    width: 100%;
+    height: 100vh;
+}
+.section
+{
+    width: 80%;
+    height: 400px;
+    
+}
+.form
+{
+    width:80%;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+}
+h1
+{
+    width: 20%;
+    height: 400px;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    text-align: center;
+    font-weight: lighter;
+}
+.label-1
+{
+    width: 20%;
+    height: 400px;
+    position: absolute;
+    top: 35%;
+    left: 21.5%;  
+}    
+.label-1::after
+{
+    content: "*";
+    color: red;
+    font-size: 20px;
+}
+.input-1
+{
+    position: absolute;
+    top: 40%;
+    left: 21.3%; 
+    width:20%;
+    height:30px;
+    border: none;
+    background-color: rgb(230, 225, 225);
+    border-radius: 10px;
+    padding: 10px;
+}
+::placeholder
+{
+    padding:10%;
+}
+.label-2
+{
+    width: 20%;
+    height: 400px;
+    position: absolute;
+    top: 45%;
+    left: 21.5%;  
+}    
+.label-2::after
+{
+    content: "*";
+    color: red;
+    font-size: 20px;
+}
+.input-2
+{
+    position: absolute;
+    top: 50%;
+    left: 21.3%; 
+    width:20%;
+    height:30px;
+    border: none;
+    background-color: rgb(230, 225, 225);
+    border-radius: 10px;
+    padding: 10px;
+}
+button
+{
+    position: absolute;
+    width: 20%;
+    height: 30px;
+    top: 57%;
+    left: 21.1%;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(255,72,84,1) 0%, rgba(255,70,109,1) 51%, rgba(255,67,132,1) 100%);
+    color: white;
+}
+ 
+.input-3
+{
+    width: 10%;
+    height:12px;
+    position: absolute;
+    top: 63.2%;
+    left: 17%;
+}
+.label-3
+{
+    width: 10%;
+    height:12px;
+    position: absolute;
+    top: 62.9%;
+    left: 22.8%;
+    font-size: 12px;
+   
+}
+.a-1
+{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    position: absolute;
+    top: 62.9%;
+    left: 34%;
+
+}
+.a-2
+{
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    top: 27%;
+    left: 35%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+    
+}
+.a-3
+{
+    position: absolute;
+    color: black;
+    text-decoration: none;
+    top: 27%;
+    left: 37%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+}
+.content
+{
+    
+    top: 20%;
+    left: 45%;
+    width: 30%;
+    margin: auto;
+    height: 400px;
+    position: absolute;
+    background: linear-gradient(90deg, rgba(255,72,84,1) 0%, rgba(255,70,109,1) 51%, rgba(255,67,132,1) 100%);
+}
+.h1-1
+{
+   text-align: center;
+   font-size: 20px;
+   color: white;
+   position: absolute;
+   top: 20%;
+   left: 38%;
+   font-weight: bold;
+}
+p
+{
+    position: absolute;
+    top: 37%;
+    left: 20%;
+    font-size: 25px;
+    color:white;
+    font-weight:lighter;
+}
+.btn
+{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+   border: 1px solid white;
+}
+.btn:hover
+{
+    background: linear-gradient(90deg, rgba(255,72,84,1) 0%, rgba(255,70,109,1) 51%, rgba(255,67,132,1) 100%);
+}
+
