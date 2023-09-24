@@ -1,0 +1,426 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+#style-2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
+}
+
+.main
+{
+    width: 100%;
+    height: 100vh;
+}
+.nav
+{
+    padding: 0px 24px;
+    width: 20%;
+    height:140%;
+    background-color:white ;
+    border: 0.5px solid rgb(110, 109, 109);
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+    
+}
+.i1
+{
+   
+    position: fixed;
+    padding: 10px 24px;
+    background-color: white;
+    z-index: 22;
+   
+}
+.h-5
+{
+    position: absolute;
+    top: 10%;
+    padding: 0px 24px;
+    color:black;
+}
+.li-1
+
+{
+    position: absolute;
+    list-style: none;
+    top: 15%;
+    padding: 0px 24px;
+    transition: 0.5s;
+}
+.li-1:hover
+{
+    line-height: 50px;
+    position: absolute;
+    color: #5D87FF;
+    background-color:#5D87FF;
+    color: white;
+    height: 50px;
+    width: 15%;
+    border-radius:15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.ri-dashboard-line
+{
+    font-size:25px;
+    
+}
+.span-1
+{
+   position: absolute;
+   top: 5px;
+}
+.h6-1
+{
+    position: absolute;
+    top: 25%;
+    padding: 0px 24px;
+    color:black;
+}
+
+.li-2
+{
+    position: absolute;
+    list-style: none;
+    top: 30%;
+    padding: 0px 24px;
+    transition: 0.5s;
+}
+.li-2:hover
+{
+    line-height: 50px;
+    position: absolute;
+    color: #5D87FF;
+    background-color:#5D87FF;
+    color: white;
+    height: 50px;
+    width: 15%;
+    border-radius:15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.span-2
+{
+   position: absolute;
+   top: 5px;
+}
+.ri-article-line
+{
+    font-size:25px;
+}
+.li-3
+{
+    position: absolute;
+    list-style: none;
+    top: 37%;
+    padding: 0px 24px;
+    transition: 0.5s;
+}
+.li-3:hover
+{
+    line-height: 50px;
+    position: absolute;
+    color: #5D87FF;
+    background-color:#5D87FF;
+    color: white;
+    height: 50px;
+    width: 15%;
+    border-radius:15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.ri-alert-line
+{
+    font-size:25px;
+}
+.span-3
+{
+   position: absolute;
+   top: 5px;
+}
+.li-4
+{
+    position: absolute;
+    list-style: none;
+    top: 44%;
+    padding: 0px 24px;
+    transition: 0.5s;
+}
+.li-4:hover
+{
+    line-height: 50px;
+    position: absolute;
+    color: #5D87FF;
+    background-color:#5D87FF;
+    color: white;
+    height: 50px;
+    width: 15%;
+    border-radius:15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.ri-bank-card-line
+{
+    font-size:25px;
+}
+.span-4
+{
+   position: absolute;
+   top: 5px;
+}
+
+.li-5
+{
+    position: absolute;
+    list-style: none;
+    top: 51%;
+    padding: 0px 24px;
+    transition: 0.5s;
+}
+.li-5:hover
+{
+    line-height: 50px;
+    position: absolute;
+    color: #5D87FF;
+    background-color:#5D87FF;
+    color: white;
+    height: 50px;
+    width: 15%;
+    border-radius:15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.ri-file-copy-2-line
+{
+    font-size:25px;
+}
+.span-5
+{
+   position: absolute;
+   top: 5px;
+}
+.li-6
+{
+    position: absolute;
+    list-style: none;
+    top: 58%;
+    padding: 0px 24px;
+    transition: 0.5s;
+}
+.li-6:hover
+{
+    line-height: 50px;
+    position: absolute;
+    color: #5D87FF;
+    background-color:#5D87FF;
+    color: white;
+    height: 50px;
+    width: 15%;
+    border-radius:15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.ri-font-family
+{
+    font-size:25px;
+}
+.span-6
+{
+   position: absolute;
+   top: 5px;
+}
+.h6-2
+{
+    position: absolute;
+    top: 68%;
+    padding: 0px 24px;
+    color:black;
+}
+.li-7
+{
+    position: absolute;
+    list-style: none;
+    top: 73%;
+    padding: 0px 24px;
+    transition: 0.5s;
+}
+.li-7:hover
+{
+    line-height: 50px;
+    position: absolute;
+    color: #5D87FF;
+    background-color:#5D87FF;
+    color: white;
+    height: 50px;
+    width: 15%;
+    border-radius:15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.ri-login-box-line
+{
+    font-size:25px;
+}
+.span-7
+{
+   position: absolute;
+   top: 5px;
+}
+
+.li-8
+{
+    position: absolute;
+    list-style: none;
+    top: 80%;
+    padding: 0px 24px;
+    transition: 0.5s;
+}
+.li-8:hover
+{
+    line-height: 50px;
+    position: absolute;
+    color: #5D87FF;
+    background-color:#5D87FF;
+    color: white;
+    height: 50px;
+    width: 15%;
+    border-radius:15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.ri-shield-user-line
+{
+    font-size:25px;
+}
+.span-8
+{
+   position: absolute;
+   top: 5px;
+}
+.h6-3
+{
+    position: absolute;
+    top: 88%;
+    padding: 0px 24px;
+    color:black;
+}
+.li-9
+{
+    position: absolute;
+    list-style: none;
+    top: 93%;
+    padding: 0px 24px;
+    transition: 0.5s;
+}
+.li-9:hover
+{
+    line-height: 50px;
+    position: absolute;
+    color: #5D87FF;
+    background-color:#5D87FF;
+    color: white;
+    height: 50px;
+    width: 15%;
+    border-radius:15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.ri-emotion-line
+{
+    font-size:25px;
+}
+.span-9
+{
+   position: absolute;
+   top: 5px;
+}
+.li-10
+{
+    position: absolute;
+    list-style: none;
+    top: 100%;
+    padding: 0px 24px;
+    transition: 0.5s;
+}
+.li-10:hover
+{
+    line-height: 50px;
+    position: absolute;
+    color: #5D87FF;
+    background-color:#5D87FF;
+    color: white;
+    height: 50px;
+    width: 15%;
+    border-radius:15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.ri-camera-lens-line
+{
+    font-size:25px;
+}
+.span-10
+{
+   position: absolute;
+   top: 5px;
+}
+.upgrad
+{
+    background-color: #b7d2f8;
+    width:18%;
+    height:20%;
+    position: absolute;
+    left: 1%;
+    top: 118%;
+    border-radius: 10px;
+}
+.i-2
+{
+    position: absolute;
+    top:-30%;
+    left: 65%;
+}
+.h--1
+{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-weight: 100;
+}
+.btn-1
+{
+    position: absolute;
+    top: 60%;
+    left: 30px;
+    width: 50%;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    transition: 0.5s;
+}
+.btn-1:hover
+{
+    color:white;
+    background-color:#5D87FF;
+    cursor: pointer;
+}
+
