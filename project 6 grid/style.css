@@ -1,0 +1,57 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: black;
+}
+.main
+{
+    width: 50%;
+    margin: auto;
+    margin-top:40px;
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px;
+    grid-template-rows: repeat(3,150px)100px;
+    gap: 20px;
+    text-align: center;
+    
+
+}
+.header
+{
+    background-color: aqua;
+    grid-column: 1/5;
+}
+.box1
+{
+    background-color: blueviolet;
+    grid-column: 1/2;
+}
+.box2
+{
+    background-color: brown;
+}
+.box3
+{
+    background-color: burlywood;
+}
+.side
+{
+    background-color: chartreuse;
+    grid-row: 2/4;
+    grid-column: 4/5;
+}
+.content
+{
+    background-color: chocolate;
+    grid-column: 1/4;
+}
+.footer
+{
+    background-color: cornflowerblue;
+    grid-column: 1/5;
+}
