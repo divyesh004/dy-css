@@ -1,0 +1,159 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+    height: 100vh;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.8)), url('img/bg.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.content
+{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+h1
+{
+    font-size: 70px;
+    text-align:center;
+    color: white;
+    font-weight: bold;
+}
+.p1
+{
+    
+    font-size:15px ;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    position: absolute;
+    top: 120%;
+
+}
+.content-1  
+{
+    
+    
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    transition:0.5s;
+}
+.content-1:hover
+{
+    background-color:black;
+    font-family: 'Pacifico', cursive;
+}
+img
+{
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 110%;
+    top:60%; 
+}
+p
+{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    left: 50%;
+    top:60%;
+}
+.navbar
+{
+    width: 100%;
+    background-color: black;
+    padding-left: 80px;
+}
+.navbar .main
+{
+    display: flex;
+}
+.navbar .mainlist
+{
+    padding: 10px 20px;
+    list-style: none;
+}
+.mainlist a
+{
+    color: white;
+}
+li a
+{
+    text-decoration: none;
+}
+.sub
+{
+    position: absolute;
+    top: 50px;
+    left: 0%;
+    background-color: white;
+    margin-top: -1%;
+    width: 100%;
+    display: none;
+    height: 50px;
+}
+
+
+.sub li
+{
+    list-style: none;
+    padding-bottom: 10px;
+    line-height:50px;
+    display: inline-block;
+}
+.sublist a
+{
+    padding-left: 100px;
+    color: black;
+}
+.mainlist:hover .sub
+{
+    display: block;
+}
+.sub1
+{
+    position: absolute;
+    top: 50px;
+    left: 0%;
+    background-color: white;
+    margin-top: -1%;
+    color: black;
+    width: 100%;
+    display: none;
+    height: 50px;
+}
+.sub1 li
+{
+    list-style: none;
+    padding-bottom: 10px;
+    line-height:50px;
+    display: inline-block;
+}
+.sublist1 a
+{
+    padding-left: 100px;
+    color: black;
+}
+.mainlist:hover .sub1
+{
+    display: block;
+}
