@@ -1,0 +1,152 @@
+@media(max-width:700px) {
+    .contener {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+    header
+    {
+        
+        background-position: center;
+    }
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+    .link a:hover {
+        background-color: red;
+        border-radius: 10px;
+        border: none;
+    }
+    li::after {
+        content: '';
+        background-color: red;
+        display: block;
+        width: 0%;
+        margin: auto;
+        height: 2px;
+        transition: all 0.5s;
+    }
+    li:hover::after {
+        width: 100%;
+    }
+    .boxs {
+        display: flex;
+        flex-direction: column;
+    }
+    .container .col .box .boxs {
+        flex-direction: column;
+        width: 100%;
+    }
+    .row
+    {
+        flex-direction:column ;
+        width: 100%;
+    }
+
+    .row .pic
+    {
+        display: flex;
+        flex-direction: column;
+
+    }    
+    .row .pic  .cource-col
+    { 
+        width: 100%;
+        height:100%;
+        position: relative;
+    }   
+    .con-main1  {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top:2%;
+    }
+    .dy
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+}
+.image
+{
+    width: 80%;
+    height: 500px;
+    border-radius: 20px;
+    margin: auto;
+}
+.image img
+{
+    width: 80%;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+.wraper1
+{
+    text-align: center;
+    background-color: rgb(207, 207, 207);
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin-top: 5%;
+    transition: all 0.3s;
+}
+.student-review
+{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.student-1
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(231, 225, 225);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.footer 
+ {
+   width: 80%;
+   margin: auto;
+   padding: 10PX 10PX ;
+   display: flex;
+   justify-content: space-between;
+   flex-direction: column;
+   margin-top:100px;
+   margin-bottom: 50px;
+ }  
+ .box1
+{
+    /* padding: 10px 20px ; */
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0px 0px 10px black;
+    padding: 30px 20px;
+    margin-bottom: 50px;
+
+}
+.footer .box2
+{
+    /* padding: 10px 20px ; */
+    background-color: #fff;
+    width: 100%;
+    height: 600px;
+    box-shadow: 0px 0px 10px black;
+    padding: 30px 20px;
+}
+ textarea
+ {
+    width: 100%;
+ }
+    
+    }
+    

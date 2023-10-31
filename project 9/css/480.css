@@ -1,0 +1,223 @@
+@media(min-width:200px) and (max-width:480px) 
+{
+    * {
+        margin: 0%;
+        padding: 0%;
+        font-family: 'arial';
+    }
+
+    body {
+        width: 100%;
+    }
+
+    header {
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url(/bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+        
+    }
+   
+
+    .contener {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+
+    }
+
+    .nav-menu ul li {
+
+        padding: 10px 8px;
+       font-size: 15px;
+    }
+
+    .content h1 {
+        margin-top: 90px;
+        font-size: 29px;
+        font-family: 'arial';
+        font-weight: 900;
+    }
+
+    .content p {
+        color: white;
+        padding-bottom: 50px;
+        font-size: 15px;
+        font-weight: 100;
+        font-family: 'arial';
+        font-weight: 100;
+    }
+
+    .content a {
+        border: 1px solid white;
+        padding: 10px 10px;
+        color: white;
+        text-decoration: none;
+        transition: 0.5s;
+        width: 10%;
+        text-align: center;
+        font-size: 12px;
+        
+
+    }
+
+    .col h1,
+    .branch h1,
+    .con-main1 h1 {
+        font-size: 25px;
+    }
+
+    .con p,
+    .branch p {
+        font-size: 15px;
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    .container h2 {
+        font-size: 20px
+    }
+
+    .container p {
+        font-size:15px;
+    }
+
+    .pic {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .pic .course-col {
+        width: 100%;
+        height: 230px;
+        margin: 2% auto;
+        border-radius: 20px;
+
+    }
+
+    .pik .course-col img {
+        width: 100%;
+        height: 230px;
+        border-radius: 20px;
+    }
+
+    .con-main1 {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .dy {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3%;
+    }
+
+    .image {
+        width: 100%;
+        height: 380px;
+        border-radius: 20px;
+        margin: auto;
+    }
+
+    .image img {
+        width: 80%;
+        height: 200px;
+        border-radius: 20px;
+        margin-left: 10%;
+    }
+
+    .wraper1 {
+        text-align: center;
+        background-color: rgb(207, 207, 207);
+        padding: 20px 30px;
+        border-radius: 20px;
+        margin-top: 2%;
+        transition: all 0.3s;
+    }
+
+    .wraper1 p {
+        font-size: 13px;
+    }
+
+    .student-menu h3 {
+        font-size: 22px
+    }
+    .student-review p
+    {
+        font-size: 15px;
+    }
+
+    .footer {
+        width: 90%;
+        margin: auto;
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer .box1 {
+
+
+        width: 100%;
+        margin: auto;
+        margin: 50px 0px;
+        height: 580px;
+        transition: all 0.3s;
+        padding: 30px 20px;
+
+    }
+
+    .footer .box2 {
+
+        width: 100%;
+        height: 580px;
+        transition: all 0.3s;
+        padding: 20px 20px;
+        margin:auto;
+    }
+
+    button {
+        background-color: red;
+        border: none;
+        padding: 10px 20px;
+        position: relative;
+        left: -11%;
+        border-radius: 5px;
+        transition: all 0.3s;
+    }
+
+    .name1 {
+        display: flex;
+        justify-content: space-between;
+        width: 20%;
+        margin-bottom: 10px;
+        width: 80%;
+        padding-left: 12px;
+
+
+    }
+
+}
