@@ -1,0 +1,261 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "poppins";
+}
+
+.main {
+  width: 100%;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-bottom: 20px;
+  position: fixed;
+  z-index: 9999;
+}
+
+.nav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.nav-menu ul li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.btn {
+  width: 10%;
+  background-color: red;
+  text-align: center;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.btn a {
+  color: white;
+}
+
+.nav-menu ul li a {
+  color: #333;
+  transition: all 0.5s;
+}
+
+.nav-menu ul li a:hover {
+  color: lightblue;
+}
+
+.banner {
+  background-color: #1a5ca3;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.banner img {
+  margin-left: 50%;
+  margin-top: 110px;
+}
+
+.bannre-tittle {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 35%;
+  left: 15%;
+}
+
+.bannre-tittle img {
+  width: 100%;
+  margin-left: 0%;
+  margin-top: 10px;
+}
+
+.bannre-tittle h1 {
+  color: white;
+}
+
+.bannre-tittle h5 {
+  color: #5797db;
+  margin-bottom: 20px;
+}
+
+.bannre-tittle a {
+  width: 100%;
+  background-color: rgb(3, 187, 3);
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  color: white;
+  font-weight: 700;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.footer-link {
+  width: 100%;
+  background-color: lightgray;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+}
+
+.footer-link a {
+  color: #1a5ca3;
+  font-weight: 300;
+}
+
+.swiper {
+  width: 90%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 80px;
+}
+.tittle-slide h1 {
+  margin-left: 100px;
+  color: #5797db;
+}
+.tittle-Explore h1 {
+  margin-left: 100px;
+  color: #5797db;
+  margin-bottom: 20px;
+}
+.main-explore {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+.explore-menu {
+  border: 1px dotted black;
+  border-radius: 3px;
+  width: 420px;
+  height: 270px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+.exp-a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: black;
+}
+.btn-explore {
+  display: flex;
+  justify-content: center;
+  border-top: 1px dotted black;
+  color: red;
+}
+.btn-links {
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
+.footer-wraper {
+  width: 100%;
+  height: 432px;
+  background-color: #f2f5fc;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.app-download-info {
+  padding-top: 4rem;
+}
+.app-download-info h3 {
+  font-family: "ProximaBold";
+  letter-spacing: 0.15;
+  color: #59688c;
+  text-transform: none;
+  font-size: 2.5em;
+  margin: 0;
+}
+.app-download-info p {
+  font-size: 27px;
+  line-height: 43px;
+  letter-spacing: 0.24px;
+  color: #8899c0;
+  max-width: 457px;
+}
+.app-download-ul li {
+  padding-top: 4rem;
+  list-style: none;
+}
+.sec {
+  flex-direction: row;
+  padding: 2rem 0rem;
+  justify-content: start;
+  font-size: 1rem;
+  color: #59688c;
+  margin-left: 100px;
+}
+.contact-h3 {
+  color: #006491;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.contact-p {
+  color: #54565b;
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+}
+.footer-wrapper-link {
+  background-color: #222e3a;
+  padding-top: 3em;
+}
+.footer-dek {
+  display: flex;
+  justify-content: space-around;
+}
+.dek-a {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.15;
+  color: #546273;
+}
+.footer-dek ul {
+  list-style: none;
+}
+.footer-dek ul li {
+  padding: 8px 0px;
+}
+.footer-dek ul li a {
+  color: white;
+}
+.social-footer {
+  display: flex;
+  justify-content: inherit;
+}
+.social-footer i {
+  font-size: 30px;
+  color: white;
+}
+.copyrigth-footer {
+  display: flex;
+  justify-content: center;
+  padding: 1.4em;
+  background: #1a2735;
+  color: #5c6f83;
+  border-top: 1px dotted #526274;
+}
